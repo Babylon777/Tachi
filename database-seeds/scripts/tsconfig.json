@@ -11,9 +11,8 @@
 			// I hope not.
 			"DOM"
 		],
-		"rootDir": "src",
+		"outDir": "./js",
 		"baseUrl": "src",
-		"outDir": "js",
 		// USE TS-NODE!
 		"noEmit": true,
 		"typeRoots": [
@@ -27,9 +26,7 @@
 			"tachi-common/*": [
 				"../../../common/src/*"
 			]
-		},
-		"composite": true,
-		"tsBuildInfoFile": ".tsbuildinfo"
+		}
 	},
 	"ts-node": {
 		"require": [
@@ -38,10 +35,5 @@
 	},
 	"exclude": [
 		"node_modules",
-	],
-	"references": [
-		{
-			"path": "../../common"
-		}
-	],
+	]
 }

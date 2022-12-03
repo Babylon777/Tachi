@@ -56,7 +56,7 @@ export default function ImportFileInfo({
 
 				setData({ valid, info });
 			} catch (err) {
-				setErrMsg((err as Error).message);
+				setErrMsg(err.message);
 				setData({ valid: false, info: {} });
 			}
 		});

@@ -35,5 +35,3 @@ logs
 coverage
 out.*
 failed-tests.log
-
-.tsbuildinfo
